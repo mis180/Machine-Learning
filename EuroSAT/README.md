@@ -27,12 +27,12 @@ In the experiment, I divided image augmentation techniques into two parts: the f
 ### Accuracy after applying geometrical or topological transformation
 | Model |  Number of epochs  | Training set accuracy (18900) | Validation set accuracy (5400) | Test set accuracy (2700) |
 | ----------------- | ----------- | ----------------- | ----------- | ----------- |
-| [VGG11](https://arxiv.org/pdf/1409.1556.pdf)        | 100 |[97.79%](output/png/EuroSAT_VGG11_GT.png)          |[98.61% ](output/png/EuroSAT_VGG11_GT.png)         |98.96%|
-| [VGG19](https://arxiv.org/pdf/1409.1556.pdf)        | 100 |[98.36%](output/png/EuroSAT_VGG19_GT.png)          |[98.59%](output/png/EuroSAT_VGG19_GT.png)          |98.77%|
-| [ResNet18](https://arxiv.org/pdf/1512.03385.pdf)    | 100 |[98.08%](output/png/EuroSAT_RESNET18_GT.png)       |[98.51%](output/png/EuroSAT_RESNET18_GT.png)       |98.59%|
-| [ResNet152](https://arxiv.org/pdf/1512.03385.pdf)   | 100 |[98.65%](output/png/EuroSAT_RESNET152_GT.png)      |[98.83%](output/png/EuroSAT_RESNET152_GT.png)      |98.85%|
-| [EfficientNet-B1](https://arxiv.org/abs/1512.03385) | 100 |[98.64%](output/png/EuroSAT_EFFICIENTNET-B1_GT.png)|[98.92%](output/png/EuroSAT_EFFICIENTNET-B1_GT.png)|99.14%|
-| [EfficientNet-B7](https://arxiv.org/abs/1512.03385) | 100 |[98.94%](output/png/EuroSAT_EFFICIENTNET-B7_GT.png)|[98.85%](output/png/EuroSAT_EFFICIENTNET-B7_GT.png)|98.96%|
+| [VGG11](https://arxiv.org/pdf/1409.1556.pdf)        | 100 |[97.79%](output/png/EuroSAT_VGG11_GT.png)          |[98.61% ](output/png/EuroSAT_VGG11_GT.png)         |98.96% (+0.82%)|
+| [VGG19](https://arxiv.org/pdf/1409.1556.pdf)        | 100 |[98.36%](output/png/EuroSAT_VGG19_GT.png)          |[98.59%](output/png/EuroSAT_VGG19_GT.png)          |98.77% (+0.52%)|
+| [ResNet18](https://arxiv.org/pdf/1512.03385.pdf)    | 100 |[98.08%](output/png/EuroSAT_RESNET18_GT.png)       |[98.51%](output/png/EuroSAT_RESNET18_GT.png)       |98.59% (+2.19%)|
+| [ResNet152](https://arxiv.org/pdf/1512.03385.pdf)   | 100 |[98.65%](output/png/EuroSAT_RESNET152_GT.png)      |[98.83%](output/png/EuroSAT_RESNET152_GT.png)      |98.85% (+1.04%)|
+| [EfficientNet-B1](https://arxiv.org/abs/1512.03385) | 100 |[98.64%](output/png/EuroSAT_EFFICIENTNET-B1_GT.png)|[98.92%](output/png/EuroSAT_EFFICIENTNET-B1_GT.png)|99.14% (+1.03%)|
+| [EfficientNet-B7](https://arxiv.org/abs/1512.03385) | 100 |[98.94%](output/png/EuroSAT_EFFICIENTNET-B7_GT.png)|[98.85%](output/png/EuroSAT_EFFICIENTNET-B7_GT.png)|98.96% (+0.74%)|
 
 
 ## Color transformation
@@ -41,15 +41,16 @@ In the experiment, I divided image augmentation techniques into two parts: the f
 
 | Model |  Number of epochs  | Training set accuracy (18900) | Validation set accuracy (5400) | Test set accuracy (2700) |
 | ----------------- | ----------- | ----------------- | ----------- | ----------- |
-| [VGG11](https://arxiv.org/pdf/1409.1556.pdf)        | 100 |[99.68%](output/png/EuroSAT_VGG11_C.png)          |[97.31%](output/png/EuroSAT_VGG11_C.png)          |97.81%|
-| [VGG19](https://arxiv.org/pdf/1409.1556.pdf)        | 100 |[99.58%](output/png/EuroSAT_VGG19_C.png)          |[97.22%](output/png/EuroSAT_VGG19_C.png)          |98.07%|
-| [ResNet18](https://arxiv.org/pdf/1512.03385.pdf)    | 100 |[99.69%](output/png/EuroSAT_RESNET18_C.png)       |[96.20%](output/png/EuroSAT_RESNET18_C.png)       |96.92%|
-| [ResNet152](https://arxiv.org/pdf/1512.03385.pdf)   | 100 |[99.89%](output/png/EuroSAT_RESNET152_C.png)      |[97.11%](output/png/EuroSAT_RESNET152_C.png)      |98.07%|
-| [EfficientNet-B1](https://arxiv.org/abs/1512.03385) | 100 |[99.67%](output/png/EuroSAT_EFFICIENTNET-B1_C.png)|[97.53%](output/png/EuroSAT_EFFICIENTNET-B1_C.png)|98.11%|
-| [EfficientNet-B7](https://arxiv.org/abs/1512.03385) | 100 |[99.88%](output/png/EuroSAT_EFFICIENTNET-B7_C.png)|[96.98%](output/png/EuroSAT_EFFICIENTNET-B7_C.png)|97.85%|
+| [VGG11](https://arxiv.org/pdf/1409.1556.pdf)        | 100 |[99.68%](output/png/EuroSAT_VGG11_C.png)          |[97.31%](output/png/EuroSAT_VGG11_C.png)          |97.81% (-0.33%)|
+| [VGG19](https://arxiv.org/pdf/1409.1556.pdf)        | 100 |[99.58%](output/png/EuroSAT_VGG19_C.png)          |[97.22%](output/png/EuroSAT_VGG19_C.png)          |98.07% (-0.18%)|
+| [ResNet18](https://arxiv.org/pdf/1512.03385.pdf)    | 100 |[99.69%](output/png/EuroSAT_RESNET18_C.png)       |[96.20%](output/png/EuroSAT_RESNET18_C.png)       |96.92% (+0.52%)|
+| [ResNet152](https://arxiv.org/pdf/1512.03385.pdf)   | 100 |[99.89%](output/png/EuroSAT_RESNET152_C.png)      |[97.11%](output/png/EuroSAT_RESNET152_C.png)      |98.07% (+0.26%)|
+| [EfficientNet-B1](https://arxiv.org/abs/1512.03385) | 100 |[99.67%](output/png/EuroSAT_EFFICIENTNET-B1_C.png)|[97.53%](output/png/EuroSAT_EFFICIENTNET-B1_C.png)|98.11% (0%)|
+| [EfficientNet-B7](https://arxiv.org/abs/1512.03385) | 100 |[99.88%](output/png/EuroSAT_EFFICIENTNET-B7_C.png)|[96.98%](output/png/EuroSAT_EFFICIENTNET-B7_C.png)|97.85% (-0.37%)|
 
 
 NEXT:
+
 * Perform experiment with all bands 
 
 * The EfficientNet-B1 with Geometrical or topological transformation got 99.14% accuracy with 100 epochs. I wanna see much I can improve the accuracy by combining training and validation data and increasing the number of epochs. 
@@ -62,6 +63,7 @@ Also, I noticed that sometimes Elastic Transformation drastically changes the or
 
 
 CREDIT: 
+
 To do this project I was inspired by [Aladdin Persson](https://github.com/aladdinpersson/Machine-Learning-Collection)
 
 

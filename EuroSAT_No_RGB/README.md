@@ -1,4 +1,4 @@
-# EuroSAT (Sentinel-2 satellite) with all 13 spectral bands with PyTorch and image augmentation techniques
+# EuroSAT (Sentinel-2 satellite) with 10 spectral bands (NoRGB) with PyTorch and image augmentation techniques
 
 This is a third part of the project exploring [EuroSAT](https://arxiv.org/pdf/1709.00029.pdf) (10 spectral bands without RGB) 
 dataset by applying different pre-trained models. 

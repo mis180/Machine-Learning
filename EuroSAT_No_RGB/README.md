@@ -53,7 +53,7 @@ the accuracy was a little bit higher. This result can indicate that NoRGB bands 
 
 
 ## NEXT:
-* Experiment with different pixel resolutions. The current size of the dataset is 64*64 pixels. What if I rescale them and make 128*128 or 256*256 pixels? Can I get different results? 
+* Experiment with different pixel resolutions. The current size of the dataset is 64 * 64 pixels. What if I rescale them and make 128 * 128 or 256 * 256 pixels? Can I get different results? 
 * In all experiments I used [Adam optimizer](https://arxiv.org/pdf/1412.6980.pdf), now I wanna test different optimization techniques.  
 * Later I wanna add addtional features: NDVI, Topology, and 
 * Later I wanna add additional features such as NDVI  Topology
